@@ -6,7 +6,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Zoo {
+
     public static void main(String[] args) {
+
         Duck duck = new Duck();
         Duck duck2 = new Duck();
         Fish fish = new Fish();
@@ -33,8 +35,7 @@ public class Zoo {
 
         giraffe.run();
 
-
-        List<Swim> pond = new ArrayList();
+        ArrayList<Swim> pond = new ArrayList<>();
         pond.add(fish);
         pond.add(fish2);
         pond.add(fish3);
@@ -42,5 +43,6 @@ public class Zoo {
         pond.add(duck2);
 
         pond.forEach(Swim::swim);
+
     }
 }
