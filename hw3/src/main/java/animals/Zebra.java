@@ -1,8 +1,10 @@
 package animals;
 
+import animals.interfaces.Run;
+import animals.interfaces.Voice;
 import aviary.Size;
 
-public class Zebra extends Herbivore implements Run, Voice{
+public class Zebra extends Herbivore implements Run, Voice {
 
 
     public Zebra(String name, Size size) {

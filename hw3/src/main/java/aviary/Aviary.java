@@ -6,6 +6,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class Aviary<T extends Animal> {
+
     private final Size size;
     private final Size[] allSize = Size.values();
     private Set<T> set = new HashSet<>();
@@ -13,9 +14,6 @@ public class Aviary<T extends Animal> {
     public Aviary(Size size) {
         this.size = size;
     }
-
-//    private Set<T> set = new HashSet<>();
-
 
     public void addAnimal(T animal) {
 
@@ -32,7 +30,6 @@ public class Aviary<T extends Animal> {
     public void getSet() {
         for (T x : set) {
             System.out.println(x.getName());
-
         }
     }
 
@@ -40,11 +37,7 @@ public class Aviary<T extends Animal> {
         for (T i : set) {
             if (i.getName().equals(name))
                 return i;
-
-
         }
         return null;
     }
-
-
 }

@@ -1,5 +1,5 @@
 import animals.Animal;
-import animals.Voice;
+import animals.interfaces.Voice;
 import food.Food;
 
 public class Worker {

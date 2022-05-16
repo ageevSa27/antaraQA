@@ -1,5 +1,6 @@
 package animals;
 
+import animals.interfaces.Run;
 import aviary.Size;
 
 public class Giraffe extends Herbivore implements Run {

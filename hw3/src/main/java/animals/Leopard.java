@@ -1,5 +1,7 @@
 package animals;
 
+import animals.interfaces.Run;
+import animals.interfaces.Voice;
 import aviary.Size;
 
 public class Leopard extends Carnivorous implements Run, Voice {

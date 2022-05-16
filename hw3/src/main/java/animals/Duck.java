@@ -1,5 +1,8 @@
 package animals;
 
+import animals.interfaces.Fly;
+import animals.interfaces.Swim;
+import animals.interfaces.Voice;
 import aviary.Size;
 
 public class Duck extends Carnivorous implements Fly, Voice, Swim {

@@ -1,5 +1,6 @@
 package animals;
 
+import animals.interfaces.Swim;
 import aviary.Size;
 
 public class Fish extends Herbivore implements Swim {
