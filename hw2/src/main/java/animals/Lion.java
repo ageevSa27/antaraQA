@@ -3,7 +3,7 @@ package animals;
 import animals.interfaces.Run;
 import animals.interfaces.Voice;
 
-public class Lion extends Сarnivorous implements Run, Voice {
+public class Lion extends Carnivorous implements Run, Voice {
 
     @Override
     public void run() {
