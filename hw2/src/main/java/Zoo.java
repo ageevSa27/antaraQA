@@ -18,12 +18,9 @@ public class Zoo {
         Leopard leopard = new Leopard();
         Lion lion = new Lion();
         Zebra zebra = new Zebra();
-
         Worker worker = new Worker();
-
         Meat meat = new Meat();
         Grass grass = new Grass();
-
         worker.feed(fish, grass);
         worker.feed(giraffe, meat);
         worker.feed(lion, meat);
@@ -41,7 +38,6 @@ public class Zoo {
         pond.add(fish3);
         pond.add(duck);
         pond.add(duck2);
-
         pond.forEach(Swim::swim);
 
     }
